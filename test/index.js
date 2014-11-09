@@ -478,6 +478,15 @@ describe('Nightmare', function () {
         .run(done);
     });
 
+    it('should enable live debugger', function (done) {
+      new Nightmare({ debuggerPort: 7007 })
+        .goto('http://www.wikipedia.org/')
+        .run(function () {
+          true.should.eql(true);
+          done();
+        });
+    });
+
   });
 
   /**
