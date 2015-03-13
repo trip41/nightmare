@@ -1,0 +1,8 @@
+{
+  "undef": true,
+  "unused": "vars",
+  "node": true,
+  "indent": 2,
+  "strict": false,
+  "predef": [ "describe", "it", "before", "after", "beforeAll", "afterAll", "window", "document", "alert"]
+}
