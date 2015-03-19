@@ -1,15 +1,15 @@
 {
-  "name": "nightmare",
+  "name": "@kimonolabs/nightmare",
   "version": "1.7.0",
-  "author": "Segment",
   "keywords": [
     "nightmare",
     "phantomjs"
   ],
-  "description": "A high level wrapper for Phantomjs",
+  "private": true,
+  "description": "A high level wrapper for Phantomjs modified for the kimono extractor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/segmentio/nightmare.git"
+    "url": "https://github.com/trip41/nightmare.git"
   },
   "dependencies": {
     "async": "^0.9.0",
